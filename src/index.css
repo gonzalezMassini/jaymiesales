@@ -31,6 +31,17 @@ html{
   /* background-color: #0093E9; */
   /* background-image: linear-gradient(270deg, rgb(13, 42, 104) 0%, #485c86 100%); */
 }
+#select{
+  margin-left:1em;
+}
+#select:hover{
+  cursor: pointer;;
+}
+.owner{
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+}
 .homeContainer{
   background-color: rgb(13, 42, 104);
   /* background-color: #0093E9; */
@@ -44,6 +55,7 @@ html{
   width: 75%;
   height: 35em;
   color: white;
+  border-radius: 0.75em;
 }
 /* 
 #contact{
@@ -177,6 +189,7 @@ code {
   height: 30px;
   background: rgb(196, 91, 16);
   border-radius: 5px;
+  /* margin-right: 8em; */
 }
 input {
   width: 500px;
@@ -481,6 +494,7 @@ button:hover {
 }
 .contactTitle {
   margin: 1em 0 2em 0;
+  color: white;
 }
 .navHR {
   transition: all 2s linear;

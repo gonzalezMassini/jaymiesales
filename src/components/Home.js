@@ -16,7 +16,7 @@ const Home = () => {
             Ofrecemos orientaciones gratis sobre los diferentes programas solares que hay en Puerto Rico.
           </p>
 
-          <p>Nos encargamos de que usted tenga el conocimientp necesario sobre los sistemas de energia solar para que pueda tomar la mejor desiocion para el futuro.</p>
+          <p>Nos encargamos de que usted tenga el conocimiento necesario sobre los sistemas de energía solar para que pueda tomar la mejor decisión para el futuro.</p>
           
           <div className='contactHomeLinkContainer'>
             <Link

@@ -4,27 +4,29 @@ function Form({ sendEmail }) {
   return (
     <form onSubmit={sendEmail}>
       <div className='item'>
-        <label>Name:</label>
-        <input type='text' placeholder='Name' name='name' required />
+        <label>Nombre y Apellido:</label>
+        <input type='text' placeholder='Nombre y Apellido' name='name' required />
       </div>
       <div className='item'>
         <label>Email:</label>
         <input type='text' placeholder='Email' name='email' required />
       </div>
       <div className='item'>
-        <label>Subject:</label>
-        <input type='text' placeholder='Subject' name='subject' required />
+        <label>Teléfono:</label>
+        <input type='phone' placeholder='Teléfono' name='phone' required />
       </div>
       <div className='item'>
-        <label>Messgae:</label>
-        <textarea
-          type='text'
-          className='inputMessage'
-          placeholder='Message'
+        <label>Dirección:</label>
+        <input type='text' placeholder='Dirección' name='address' required />
+      </div>
+      <div className='item owner'>
+        <label>Dueño de casa?:</label>
+        <select id="select" placeholder='Dueño de casa?' 
           name='message'
-          cols='58'
-          required
-        ></textarea>
+          required>
+          <option value="si">Si</option>
+          <option value="no">No</option>
+        </select>
       </div>
       <button className='btn' type='submit' value='Send'>
         Send Message
