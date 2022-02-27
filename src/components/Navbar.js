@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <div className='navbar'>
-      <nav className='menu'>
+      <div className='menu'>
         {/* <a
           href='https://gracious-jang-f74f68.netlify.app'
           className='link-title'
@@ -114,9 +114,9 @@ const Navbar = () => {
           </ol>
           {/* )} */}
         </CSSTransition>
-        <hr className='navHR' />
         { isNavToggle ?null: <p id='email'>jaymiemaelisrodriguez@gmail.com | 787-373-2499</p>}
-      </nav>
+        <hr className='navHR' />
+      </div>
     </div>
   );
 };
