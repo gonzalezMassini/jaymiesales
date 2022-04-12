@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react'
+import React, {useState} from 'react'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import pdf from "../assests/pdfs/WindmarHome.pdf"
 import pdfLarge from '../assests/pdfs/WindmarHome112.pdf'
