@@ -23,9 +23,9 @@ const PDF = () => {
     }
   }
 
-  useEffect(()=>{
-    setInterval(()=>{changePage("add")}, 3000)
-  })
+  // useEffect(()=>{
+  //   setInterval(()=>{changePage("add")}, 3000)
+  // })
 
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
