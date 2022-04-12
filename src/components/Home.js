@@ -28,7 +28,7 @@ const Home = () => {
               offset={-70}
               duration={500}
               >
-              Click Here To Contact <span className='arrow'>&#8595;</span>
+              ¡Presiona para contactarnos! <span className='arrow'>&#8595;</span>
             </Link>
           </div>
           {/* <Link to='/' className='btn'>
