@@ -24,6 +24,7 @@ function Form({ sendEmail }) {
         <select id="select" placeholder='Dueño de casa?' 
           name='message'
           required>
+          <option selected disabled>--select--</option>
           <option value="si">Si</option>
           <option value="no">No</option>
         </select>

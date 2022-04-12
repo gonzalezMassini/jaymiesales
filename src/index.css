@@ -7,6 +7,49 @@
 html{
   background-color: rgb(13, 42, 104);
 }
+@media (min-width: 440px) {
+  .PDF{
+    display: none;
+  }
+  
+}
+@media (max-width:440px) {
+  .smallPDF{
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .mediumPDF{
+    display: none;
+  }
+}
+
+@media (min-width:600px) {
+  .smallPDF{
+    display: none;
+  }
+}
+
+@media(min-width: 675px){
+  .mediumPDF{
+    display: none;
+  }
+  /* .largePDF{
+    display: none
+  }; */
+}
+
+ @media (max-width: 675px){
+  .largePDF{
+    display: none;
+  }
+}
+/* @media (max-width: 600px) {
+  .mediumPDF{
+    display: none;
+  }
+}  */
 
 .changePage{
   color: rgba(0, 0, 0, 0.596);
@@ -66,10 +109,55 @@ html{
   align-items: center;
   flex-direction: column;
   /* width: 70em; */
-  width: 45%;
+  /* width: 45%; */
+  width: 40em;
   height: 25em;
   color: white;
   border-radius: 0.75em;
+  margin-top: 5em;
+}
+
+@media (max-width: 775px){
+  .homeContainer{
+    width: 99%;
+    margin-top: 5em;
+  }
+}
+
+@media (max-width: 750px){
+  /* .homeContainer{
+    width: 90%;
+    margin-top: 5em;
+    font-size: 0.8em;
+  } */
+  .homeWrapper{
+    display: unset;
+  }
+}
+
+@media(max-width: 670px){
+  .pdf{
+    /* display: none; */
+    width: 10px;
+  }
+}
+
+@media (max-width: 450px){
+  /* .homeContainer{
+    width: 99%;
+    font-size: 0.75em;
+    margin-top: 1em;
+  } */
+  .homeWrapper{
+    display: unset;
+  }
+  #projects{
+    width: 100%;
+  }
+  .pdf{
+    width: 1em;
+    /* display: none; */
+  }
 }
 /* 
 #contact{
@@ -138,7 +226,7 @@ html{
   /* background-color: red; */
   background-image: url('./assests/images/1663707.jpg');
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
   height: 45em;
@@ -156,6 +244,18 @@ html{
   position: relative;
   position: fixed;
   top: 0.75em;
+}
+
+@media(max-width: 450px){
+  #email{
+    font-size: 0.9rem;
+  }
+}
+
+@media(max-width: 400px){
+  #email{
+    font-size: 0.75rem;
+  }
 }
 
 #projects{
@@ -219,8 +319,9 @@ input {
   top: -15px; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   transition: all 0.3s linear;
-  /* background-color: red; */
+  background-color: red;
   z-index: 999;
+  font-size: 1em;
 }
 menu {
   transition: all 0.3s linear;
@@ -281,7 +382,7 @@ ol .li:hover {
   top: 0.375em;
   right: 0;
 }
-@media (max-width: 740px) {
+@media (max-width: 870px) {
   .navbar .menu ul {
     display: none;
   }
@@ -493,17 +594,20 @@ button:hover {
   margin: 0 auto;
 }
 .bar {
-  float: right;
+  /* float: right; */
   font-size: 1.5rem;
   margin: 0 1em;
   transition: all 0.3s linear;
+  position: fixed;
+  top: 0.35em;
+  right: 0px;
 }
 .bar:hover {
   cursor: pointer;
   background-color: rgba(128, 128, 128, 0.397);
   border-radius: 5px;
 }
-@media (min-width: 740px) {
+@media (min-width: 870px) {
   .bar {
     display: none;
   }

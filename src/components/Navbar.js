@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { FaBars } from 'react-icons/fa';
 import { CSSTransition } from 'react-transition-group';
+// import styles from './Navbar.module.css'
 const Navbar = () => {
   const [isNavToggle, setIsNavToggle] = useState(false);
   const handleNavToggle = () => {
@@ -11,7 +12,9 @@ const Navbar = () => {
   };
   return (
     <div className='navbar'>
+    {/* // <div className={styles.navbar}> */}
       <div className='menu'>
+      {/* <div className={styles.menu}> */}
         {/* <a
           href='https://gracious-jang-f74f68.netlify.app'
           className='link-title'
@@ -19,8 +22,11 @@ const Navbar = () => {
           Windmar Home By Jaymie
         </a> */}
         {/* <p id='email'>jaymiemaelisrodriguez@gmail.com | 787-373-2499</p> */}
+        { isNavToggle ?null: <p id='email'>jaymiemaelisrodriguez@gmail.com | 787-373-2499</p>}
+
         <div
           className='bar'
+          // className={styles.bar}
           onClick={handleNavToggle}
           style={{ transform: isNavToggle ? 'rotate(-90deg)' : null }}
         >
@@ -114,7 +120,7 @@ const Navbar = () => {
           </ol>
           {/* )} */}
         </CSSTransition>
-        { isNavToggle ?null: <p id='email'>jaymiemaelisrodriguez@gmail.com | 787-373-2499</p>}
+        {/* { isNavToggle ?null: <p id='email'>jaymiemaelisrodriguez@gmail.com | 787-373-2499</p>} */}
         <hr className='navHR' />
       </div>
     </div>
