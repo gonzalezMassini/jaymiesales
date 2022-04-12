@@ -32,7 +32,7 @@ const ContactForm = ({ isSubmit, sendEmail }) => {
         ></a> */}
         {/* eslint-disable-next-line */}
         <a
-          href='mailto:jaymiemaelisrodriguez@gmail.com'
+          href='mailto:jaymiemaelis@windmarhome.com'
           className='fa fa-google'
         ></a>
         {/* eslint-disable-next-line */}
