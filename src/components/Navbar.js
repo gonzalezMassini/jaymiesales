@@ -22,7 +22,10 @@ const Navbar = () => {
           Windmar Home By Jaymie
         </a> */}
         {/* <p id='email'>jaymiemaelisrodriguez@gmail.com | 787-373-2499</p> */}
-        { isNavToggle ?null: <p id='email'>jaymiemaelis@windmarhome.com | 787-373-2499</p>}
+        { isNavToggle ?null:  <a
+          href='mailto:jaymiemaelis@windmarhome.com'
+          className='fa fa-google'
+        ><p id='email'>jaymiemaelis@windmarhome.com | 787-373-2499</p></a> }
 
         <div
           className='bar'
