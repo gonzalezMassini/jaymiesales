@@ -2,7 +2,7 @@ import ContactForm from './components/ContactForm';
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
 import Home from './components/Home';
-import Projects from './components/Projects';
+// import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 function App() {
@@ -36,7 +36,7 @@ function App() {
     <div className='App'>
       <Navbar />
       <Home />
-      <Projects />
+      {/* <Projects /> */}
       <ContactForm isSubmit={isSubmit} sendEmail={sendEmail} />
 
       <Footer />

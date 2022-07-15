@@ -10,7 +10,7 @@ const ContactForm = ({ isSubmit, sendEmail }) => {
       {/* <hr /> */}
 
       <h1 className='contactTitle'>Contact</h1>
-      <div style={{ height: '26em' }} className='form'>
+      <div style={{ height: 'fit-content' }} className='form'>
         {!isSubmit ? (
           <Form sendEmail={sendEmail} />
         ) : (

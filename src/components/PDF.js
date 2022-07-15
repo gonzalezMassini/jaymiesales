@@ -5,18 +5,18 @@ import React, {useState} from 'react'
 // import pdfMedium from '../assests/pdfs/WindmarHome2.pdf'
 import {AiOutlineLeftCircle, AiOutlineRightCircle} from 'react-icons/ai'
 // import pdfSmall from '../assests/pdfs/WindmarHomebu.pdf'
-import Image1 from '../assests/Windmar Home/Windmar_Home1024_1.jpg'
-import Image2 from '../assests/Windmar Home/Windmar_Home1024_2.jpg'
-import Image3 from '../assests/Windmar Home/Windmar_Home1024_3.jpg'
-import Image4 from '../assests/Windmar Home/Windmar_Home1024_4.jpg'
-import Image5 from '../assests/Windmar Home/Windmar_Home1024_5.jpg'
-import Image6 from '../assests/Windmar Home/Windmar_Home1024_6.jpg'
-import Image7 from '../assests/Windmar Home/Windmar_Home1024_7.jpg'
-import Image8 from '../assests/Windmar Home/Windmar_Home1024_8.jpg'
-import Image9 from '../assests/Windmar Home/Windmar_Home1024_9.jpg'
-import Image10 from '../assests/Windmar Home/Windmar_Home1024_10.jpg'
-import Image11 from '../assests/Windmar Home/Windmar_Home1024_11.jpg'
-import Image12 from '../assests/Windmar Home/Windmar_Home1024_12.jpg'
+import Image1 from '../assests/Windmar Home/WindmarHome112_page-0001.jpg'
+import Image2 from '../assests/Windmar Home/WindmarHome112_page-0002.jpg'
+import Image3 from '../assests/Windmar Home/WindmarHome112_page-0003.jpg'
+import Image4 from '../assests/Windmar Home/WindmarHome112_page-0004.jpg'
+import Image5 from '../assests/Windmar Home/WindmarHome112_page-0005.jpg'
+import Image6 from '../assests/Windmar Home/WindmarHome112_page-0006.jpg'
+import Image7 from '../assests/Windmar Home/WindmarHome112_page-0007.jpg'
+import Image8 from '../assests/Windmar Home/WindmarHome112_page-0008.jpg'
+import Image9 from '../assests/Windmar Home/WindmarHome112_page-0009.jpg'
+import Image10 from '../assests/Windmar Home/WindmarHome112_page-0010.jpg'
+import Image11 from '../assests/Windmar Home/WindmarHome112_page-0011.jpg'
+import Image12 from '../assests/Windmar Home/WindmarHome112_page-0012.jpg'
 // import pdf from '../assests/pdfs/'
 
 const PDF = () => {
@@ -47,7 +47,7 @@ const PDF = () => {
 
   
   return (
-    <div>  
+    <div style={{width:"100%"}}>  
       <img src={images[pageNumber]} alt="loading"/>
       <p style={{marginTop:"1em"}}>
        <div className='changePage' onClick={()=>changePage("sub")}><AiOutlineLeftCircle style={{fontSize:"48px", marginRight:"0.5em"}}/></div>
